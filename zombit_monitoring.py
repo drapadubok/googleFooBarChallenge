@@ -54,7 +54,7 @@ def merge_intervals(intervals):
 	while sorted_intervals:
 		current_interval = sorted_intervals.pop(0)
 		# if current_interval overlaps, but extends beyond, adjust the end of the processed_interval
-		elif current_interval[1] > processed_interval[1] and current_interval[0] <= processed_interval[1]:
+		if current_interval[1] > processed_interval[1] and current_interval[0] <= processed_interval[1]:
 			processed_interval[1] = current_interval[1]
 		# if current_interval is disconnected from processed_interval
 		elif current_interval[0] > processed_interval[1]:
