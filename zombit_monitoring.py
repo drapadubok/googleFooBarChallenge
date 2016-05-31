@@ -41,7 +41,7 @@ Output:
 """
 
 def answer(intervals):
-  merged_intervals = merge_intervals(intervals)
+	merged_intervals = merge_intervals(intervals)
 	total = solve(merged_intervals)
 	return total
 
