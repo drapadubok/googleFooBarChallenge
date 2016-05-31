@@ -1,2 +1,2 @@
 # googleFooBarChallenge
-Googled for stuff, and got into some challenge, here are the stuffs
+Googled dependency injection, and got into a challenge, here are the stuffs
